@@ -34,7 +34,7 @@ public class ProductsFrame {
 		cmb = new JComboBox<String>();
 		cmb.setModel(new DefaultComboBoxModel<String>(column));
 		inp = new JTextField("", 30);
-		chk = new JCheckBox("ºÎºÐ °Ë»ö");
+		chk = new JCheckBox("ê²€ìƒ‰");
 
 		search();
 
@@ -42,7 +42,7 @@ public class ProductsFrame {
 
 		sp = new JScrollPane(table);
 
-		cfm = new JButton("°Ë»ö");
+		cfm = new JButton("Â°Ã‹Â»Ã¶");
 		cfm.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
